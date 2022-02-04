@@ -35,13 +35,21 @@ public class PyramidTriangleCode {
 			}
 			System.out.println("\n");
 		}
-		System.out.println("\n");
-		System.out.println("====================");
+		System.out.println("===================");
 		for(int i = 0; i < 4; i++) {
 			int L = 1;
 			for(int j = 1; j <= 1+i; j++) {
 				System.out.print(L+" ");
 				L++;
+			}
+			System.out.println("\n");
+		}
+		System.out.println("===================");
+		int M = 3;
+		for(int i = 0; i < 3; i++) {
+			for(int j = 1; j <= i+1; j++) {
+				System.out.print(M+" ");
+				M = M+3;
 			}
 			System.out.println("\n");
 		}
